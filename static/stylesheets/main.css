@@ -1,0 +1,51 @@
+/* title */
+body {
+    height: 1000px;
+    width: 100vw;
+    position: relative;
+}
+header {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 200px;
+    line-height: 1em;
+
+    height: 53%;
+    width: 98%;
+    position: relative;
+    margin: 0 auto;
+}
+header > div {
+    position: absolute;
+}
+header div:nth-child(2) {
+    top: 31%;
+    left: 5%;
+}
+header div:nth-child(3) {
+    top: 60%;
+    left: 10%;
+}
+header > div > div {
+    position: absolute;
+}
+header > div:hover {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    color: #FF7A85;
+    width: 100vw;
+    cursor: pointer;
+    z-index: 100;
+}
+header .title .hide {
+    display: none;
+}
+header .title:hover .hide {
+    display: inline;
+}
+header .title:hover .show {
+    display: none;
+}
+
